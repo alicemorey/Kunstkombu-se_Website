@@ -5,7 +5,6 @@
     /* Popup Open button */
     
     .open-button {
-        color: #FFF;
         padding: 10px;
         text-decoration: none;
     }
@@ -953,7 +952,7 @@
         background: rgba(0, 0, 0, 1);
     }
     
-    @media screen and (max-width: 720px) {
+    @media screen and# (max-width: 720px) {
         .modal-dialog,
         .modal-dialog.modal-xs {
             width: 95%;
