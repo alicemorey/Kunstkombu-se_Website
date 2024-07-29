@@ -569,8 +569,8 @@
     
     .modal-body {
         padding: 10px 15px;
-        /*overflow: scroll;*/
-        /*height: 100%;*/
+        overflow: scroll;
+        height: 100%;
     }
     
     #overlay {
