@@ -5,10 +5,10 @@
     <title>KunstKombüse</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="css/new3.css" type="text/css" media="all" rel="stylesheet">
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/lib/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+
     <div class="title-container">
         <img src="./img/Title_KK blue.png" alt="Title" class="image-title" width="700px">
         <img src="./img/Logo_KunstKombüse.png" alt="Logo KunstKombüse" class="logo-fixed" width="200px">
@@ -16,7 +16,10 @@
     
     <div class="content">
         <div class="nav-buttons">
-            <ul id="navi" class="nav">
+            <ul id="navi" class="nav">                         
+
+                <a class="open-button" data-toggle="modal" data-target="#about">
+                    <img src="./img/logo.png" class="img-fluid" width="200px" height="50px"></a>
                 <a class="open-button" data-toggle="modal" data-target="#program"><img src="./img/program purple.png" class="img-fluid" width="200px" height="50px"></a>
                 <a class="open-button" data-toggle="modal" data-target="#photo"><img src="./img/photo yellow.png" class="img-fluid" width="200px" height="50px"></a>
                 <a class="open-button" data-toggle="modal" data-target="#film"><img src="./img/film.png" class="img-fluid" width="200px" height="50px"></a>
@@ -25,77 +28,298 @@
                 <a class="open-button" data-toggle="modal" data-target="#collab"><img src="./img/collab lightblue.png" class="img-fluid" width="200px" height="50px"></a>
                 <a class="open-button" data-toggle="modal" data-target="#partners"><img src="./img/photo red.png" class="img-fluid" width="200px" height="50px"></a>
                 <a class="open-button" data-toggle="modal" data-target="#data"><img src="./img/data green.png" class="img-fluid" width="200px" height="50px"></a>
-                <a class="open-button" data-toggle="modal" data-target="#contact"><img src="./img/contact offwhite.png" class="img-fluid" width="200px" height="50px">   </a>
+                <a class="open-button" data-toggle="modal" data-target="#contact"><img src="./img/contact offwhite.png" class="img-fluid" width="200px" height="50px"></a>
             </ul>
         </div>
+    </body>
+
+<!-- Modal 1 -->    
+
+        <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="aboutLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="aboutLabel">About</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+            </div>
+            <div class="modal-body">
+                <h1>Kunstkombüse</h1>
+                <p>Description</p>
+                <p>Location Description</p>
+
+                <h2>ENG</h2>
+                <p>Description</p>
+                <p>Location Description</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"><img src="./img/contact offwhite.png" class="img-fluid" width="200px" height="50px"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal 2-->
+
+<div class="modal fade" id="photo" tabindex="-1" role="dialog" aria-labelledby="photoLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="">Photo </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+    </div>
+    <div class="modal-body">
+        <h1>Title</h1>
+        <p>Description</p>
+        <p>Location Description</p>
+
+        <h2>ENG</h2>
+        <p>Description</p>
+        <p>Location Description</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<!--Modal 3-->
+
+<div class="modal fade" id="film" tabindex="-1" role="dialog" aria-labelledby="filmLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="">Film</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+    </div>
+    <div class="modal-body">
+        <h1>Title</h1>
+        <p>Description</p>
+        <p>Location Description</p>
+
+        <h2>ENG</h2>
+        <p>Description</p>
+        <p>Location Description</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
+
+<!--Modal 4-->
+
+<div class="modal fade" id="text" tabindex="-1" role="dialog" aria-labelledby="text">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="">Text</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+    </div>
+    <div class="modal-body">
+        <h1>Title</h1>
+        <p>Description</p>
+        <p>Location Description</p>
+
+        <h2>ENG</h2>
+        <p>Description</p>
+        <p>Location Description</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<!--Modal 5-->
+
+<div class="modal fade" id="crew" tabindex="-1" role="dialog" aria-labelledby="crew">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="">Crew</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+    </div>
+    <div class="modal-body">
+        <h1>Title</h1>
+        <p>Description</p>
+        <p>Location Description</p>
+
+        <h2>ENG</h2>
+        <p>Description</p>
+        <p>Location Description</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<!--Modal 6-->
+
+<div class="modal fade" id="collab" tabindex="-1" role="dialog" aria-labelledby="collabLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="">Collab</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+    </div>
+    <div class="modal-body">
+        <h1>Title</h1>
+        <p>Description</p>
+        <p>Location Description</p>
+
+        <h2>ENG</h2>
+        <p>Description</p>
+        <p>Location Description</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<!--Modal 2-->
+
+<div class="modal fade" id="partners" tabindex="-1" role="dialog" aria-labelledby="partners">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="">Partners</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+    </div>
+    <div class="modal-body">
+        <h1>Title</h1>
+        <p>Description</p>
+        <p>Location Description</p>
+
+        <h2>ENG</h2>
+        <p>Description</p>
+        <p>Location Description</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<!--Modal 7-->
+
+<div class="modal fade" id="data" tabindex="-1" role="dialog" aria-labelledby="dataLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="">Data</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+    </div>
+    <div class="modal-body">
+        <h1>Title</h1>
+        <p>Description</p>
+        <p>Location Description</p>
+
+        <h2>ENG</h2>
+        <p>Description</p>
+        <p>Location Description</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<!--Modal 8-->
+
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="">Contact</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+    </div>
+    <div class="modal-body">
+        <h1>Title</h1>
+        <p>Description</p>
+        <p>Location Description</p>
+
+        <h2>ENG</h2>
+        <p>Description</p>
+        <p>Location Description</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+</div>
+</div>
+
+
+
+<footer>
+    <div class="bottom-logos">
+        <img src="./img/Collaborator_logo/4_Logo_Stadtwappen_SE (1).png" class="img-fluid">
+        <img src="./img/Collaborator_logo/Logo_Kreis-SE_klein_4c.jpg" class="img-fluid">
+        <img src="./img/Collaborator_logo/Logo_Stadt_Bad_Segeberg.png" class="img-fluid">
+    </div>
+    <div class="bottom-text">
+        © web design & pictures by alice morey & zwek
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.open-button').click(function() {
+            console.log('Button clicked');
+            var target = $(this).data('target');
+            $(target).modal('show');
+        });
+    });
+</script>
+</html>
+
+  
+        
+      
     
 
 
 
 
-    <!-- Modal -->
-     <!--
-    <div class="modal fade" id="home" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <h2>ENG BELOW</h2>
-                    <p>
-                    </p>
-                    <h1>Schlichthäuser gliedert sich dabei in drei Bereiche</h1>
-                    <p></p>
-                    <h1>Die Oase</h1>
-                    <p>
-                    </p>
-                    <h1>Die Schlichthäuser</h1>
-                    <p></p>
-                    <p>
-                    </p>
-                    <h1>Über die Gruppe</h1>
-                    <p>- LA 54 ist ein Kollektiv, das sich mit der Stadtentwicklung künstlerisch auseinandersetzt. Ihre emmersiven Installationen finden meistens auf der Straße statt und werfen Fragen nach Besitz, Eigentum und Ressourcenverteilung in einer
-                        fairen Welt auf. LA 54 wünscht sich grundsätzlich sichere, selbstbestimmte Wohnmöglichkeiten für alle Menschen. Ihr letztes Projekt hieß „die Häuser“ und hat sich mit Besetzung als künstlerische Strategie gegen Wohnungsnot auseinandergesetzt.
-                        Das Projekt ist vom BKM Fonds Soziokultur und voraussichtlich auch vom Bezirk Friedrichshain- Kreuzberg als Draußenstadt-Projekt gefördert.
-
-                    </p>
-                    <p>
-                    </p>
-                    <h2>ENG</h2>
-                    <p></p>
-                    <p>
-                        Dealing with the reality of homelessness at Kottbusser Tor and the surrounding neighbourhood. Winter – the hardest time to be without shelter particularly now in corona times – The project Schlichthouses by the artist collective LA 54 aims to
-                        support Kreuzberger homeless physically by building practical houses. Schlichthouse or Schlichtflat was a city developement concept in the 50s where legal living standards have been underrun in order to meet the need for housing after the
-                        war. Theoretically many facets of expulsion are not according to human rights. Against this background we can use the right of housing, right of freedom, right of freedom of speech and freedom of art productively. We want to tackle
-                        the idea of living in public spaces practically, together with the people concerned, socio-political actors, by-passers and politicians.
-                    </p>
-                    <h1>Schlichthouses has three parts</h1>
-
-                    <h1>The Oasis</h1>
-                    <p> – The communication centre of the Schlichthouse Village for homeless people and others. A 2x2x2 meter house build on wheels, standing on the gras pit of Kottbusser Tor. Here the artist Zwek will be living from the 1st-31st of January
-                        2021. In and around the Oasis the artists Ignatz Bee, Knife Knightbusch and Christopher Ramm will inhabit the space with their Sound- and Lecture Performances and develope aesthetic strategies to realize the Schlichtvillage. The
-                        collective Herbalists Without Borders will take care of the well-being by presenting their herbal tinctures, salves and teas.
-                    </p>
-                    <h1>The Schlichthouses</h1>
-                    <p>- 10 already existing spots for homeless people will be renovated together. Schlichthouses are tiny houses between 4-9 m2 which are built with accessible and cheap material such as bamboo, vlies and leaves. LA 54 will prepare material
-                        and provide work and plans. The new inhabitants will realize their own creations. All Schlichthouses will be easy to build up and down without tools and electricity. 5 of the 10 houses will be built on wagons legally registered
-                        for the road to be used on parking places and to be mobile.
-                    </p>
-                    <h1>The Third Space </h1>
-                    <p>- From the idea of Schlichthouses to physically deal with homelessness in public space will also follow a pictorial, poetical and political space in which the Oasis and the Schlichthouses foster the exchange, sensitization and a net
-                        of results.
-                    </p>
-                    <h1>About the Group </h1>
-                    <p>– LA 54 is a collective dealing with city development artistically. In their emmersive installations which are mostly happening on the streets, questions are raised about ownership, property and sharing of resources in a fair world.
-                        LA 54 generally imagines safe, self-inflicted living-possibilities for all citizens. Their last project was called die Häuser and tackled the subject squatting as an artistic strategy against housing shortage.
-
-                        <button data-dismiss="modal" class="close-button ">&times;</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="modal fade" id="homeless" tabindex="-1" role="dialog" aria-labelledby="homelessLabel">
+    
+                    
+<!--<div class="modal fade" id="homeless" tabindex="-1" role="dialog" aria-labelledby="homelessLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -892,14 +1116,3 @@ Performer / Soundkünstler / Regisseur
         </div>
     </div>
     -->
-</body>
-
-<footer>
-<div class="bottom-logos">
-    <img src="./img/Collaborator_logo/4_Logo_Stadtwappen_SE.png" class="img-fluid">
-    <img src="./img/Collaborator_logo/Logo_Kreis-SE_klein_4c.jpg" class="img-fluid">
-    <img src="./img/Collaborator_logo/Logo_Stadt_Bad_Segeberg.png" class="img-fluid">
-</div>
-</footer>
-
-</html>

@@ -18,12 +18,12 @@
 
     /* Popup Open button */
     
-    .open-button {
+    /*.open-button {
         background: transparent;
     }
     
     .open-button:hover {
-        /*background: #01478e;*/
+        /*background: #01478e;
     }
     
     h2 {
@@ -71,10 +71,10 @@
         text-align: justify;
     }
     
-    #bgtext button {
+    /*#bgtext button {
         width: 80%;
         background: rgba(255, 255, 255, 0.23);
-       /* color: #FFFFFF;*/
+       /* color: #FFFFFF;
         margin: 14px auto;
         font-size: 12px;
         padding: 6px;
@@ -100,7 +100,7 @@
     }
     /*
     * Alternative Link-Color
-    */
+    
     
     .a2 {
         color: #ffb100;
@@ -489,7 +489,7 @@
     * Button reset
     */
     
-    button {
+    /*button {
         display: inline-block;
         border: none;
         padding: 1rem 2rem;
@@ -522,14 +522,14 @@
     
     .modal {
         /*transform: translate(-50%, -50%) scale(0);
-        transition: 200ms ease-in-out;*/
+        transition: 200ms ease-in-out;
         display: none;
-        /* overflow: hidden; */
+        /* overflow: hidden; 
     }
     
     .modal.active {
         display: block;
-        /*transform: translate(-50%, -50%) scale(1);*/
+        /*transform: translate(-50%, -50%) scale(1);
     }
     
     .modal-header {
@@ -581,6 +581,7 @@
         height: 100%;
     }
     
+
     #overlay {
         position: fixed;
         opacity: 0;
@@ -635,9 +636,10 @@
         border-color: #c72c2c;
         border-collapse: collapse;
     }
+
     /*
     * Bootstrap Modal
-    */
+    
     
     .modal-open {
         overflow: hidden;
@@ -663,14 +665,14 @@
         transform: translate(0, -25%);
         -webkit-transition: -webkit-transform 0.3s ease-out;
         -o-transition: -o-transform 0.3s ease-out;
-        transition: transform 0.3s ease-out; */
+        transition: transform 0.3s ease-out; 
     }
     
     .modal.in .modal-dialog {
         /*        -webkit-transform: translate(0, 0);
         -ms-transform: translate(0, 0);
         -o-transform: translate(0, 0);
-        transform: translate(0, 0); */
+        transform: translate(0, 0); 
         opacity: 1;
         animation: fadeIn ease 0.3s;
         -webkit-animation: fadeIn ease 0.3s;
@@ -926,7 +928,7 @@
             margin: 30px auto;
         }
     }
-    
+  /*  
     .modal-dialog.modal-xs {
         width: 40%;
     }
@@ -996,7 +998,7 @@
         min-height: 100vh;
     }
     
-    /* Popup Open button */
+    /* Popup Open button 
     .open-button {
         background: transparent;
     }
@@ -1095,10 +1097,11 @@ body {
 }
 
 .title-container {
-    position: fixed;
+    position:fixed;
+
     top: 20px;
-    left: 0;
-    right: 0;
+    left: 80;
+    right: 20%;
     text-align: center;
     z-index: 1000;
 }
@@ -1107,6 +1110,19 @@ body {
     width: 200px;
     height: auto;
     display: inline-block;
+}
+
+.bottom-text {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    text-align:left;
+    font-size: 12px;
+    color: #0ceff7;
+    z-index: 1000;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
