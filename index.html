@@ -1,110 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-<head>
     <title>KunstKombüse</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="css/new3.css" type="text/css" media="all" rel="stylesheet">
-
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/lib/js/bootstrap.min.js"></script>
-
-    <!-- <script src="js/modal.js"></script> -->
-
 </head>
-
 <body>
-    <video id="bgvideo" poster="" autoplay="autoplay" muted="" height="" width="" playsinline="" loop="">
-        <source src="oase.mp4" type="video/mp4">
-         </video>
-
-    <div id="overlay"></div>
-
-
-
-    <!-----------------------------
-        NAV SECTION
-    ------------------------------->
-
-
-    <div class="nav-container">
-
-        <ul id="metanavi" class="nav">
-            <li class="first">
-        
-            </li>
-        
-            <img src="./img/Collaborator_logo/4_Logo_Stadtwappen_SE.png" class="img-fluid" width="200px"><img src="./img/Collaborator_logo/Logo_Kreis-SE_klein_4c.jpg" class="img-fluid" width="200px"><img src="./img/Collaborator_logo/Logo_Stadt_Bad_Segeberg.png" class="img-fluid" width="200px">
-        </ul>
+    <div class="title-container">
+        <img src="./img/Title_KK blue.png" alt="Title" class="image-title" width="700px">
+        <img src="./img/Logo_KunstKombüse.png" alt="Logo KunstKombüse" class="logo-fixed" width="200px">
     </div>
-    <!-- E: .nav-container -->
-    <div id="bgtext2" >
-        <img img src="./img/Logo_KunstKombüse.png" class="img-logo" width="200px"><img>
-
-        <div class="clearfix"></div>
-        <!-- Metanavi . End -->
-
-
-        <div id="navicontainer">
-            <!-- Navigation . Start -->
+    
+    <div class="content">
+        <div class="nav-buttons">
             <ul id="navi" class="nav">
-                <li>
-                    <a class="open-button" data-toggle="modal" data-target="#home">
-                        <img src="./img/program.png" class="img-fluid" width="200px" height="50px">
-                    </a>
-                </li>
-                <li>
-                    <a class="open-button" data-toggle="modal" data-target="#photo">
-                        <img src="./img/photo.png" class="img-fluid" width="200px" height="50px">
-                    </a>
-                </li>
-                <li>
-                    <a class="open-button" data-toggle="modal" data-target="#film">
-                        <img src="./img/film.png" class="img-fluid" width="200px" height="50px">
-                    </a>
-                </li>
-                <li>
-                    <a class="open-button" data-toggle="modal" data-target="#text">
-                        <img src="./img/text.png" class="img-fluid" width="200px" height="50px">
-                    </a>
-                </li>
-                <li>
-                    <a class="open-button " data-toggle="modal" data-target="#crew">
-                        <img src="./img/crew.png" class="img-fluid" width="200px" height="50px">
-                    </a>
-                </li>
-                <li>
-                    <a class="open-button " data-toggle="modal" data-target="#artists">
-                        <img src="./img/collab.png" class="img-fluid" width="200px" height="50px">
-                    </a>
-                </li>
-                <li>
-                    <a class="open-button " data-toggle="modal" data-target="#initiatives">
-                        <img src="./img/partners.png" class="img-fluid" width="200px" height="50px">
-                    </a>
-                </li>
-                <li>
-                    <a class="open-button " data-toggle="modal" data-target="#datenschutz">
-                        <img src="./img/data.png" class="img-fluid" width="200px" height="50px">
-                    </a>
-                </li>
-                <li>
-                    <a class="open-button " data-toggle="modal" data-target="#contact">
-                        Contact
-                    </a>
-                </li>
+                <a class="open-button" data-toggle="modal" data-target="#program"><img src="./img/program purple.png" class="img-fluid" width="200px" height="50px"></a>
+                <a class="open-button" data-toggle="modal" data-target="#photo"><img src="./img/photo yellow.png" class="img-fluid" width="200px" height="50px"></a>
+                <a class="open-button" data-toggle="modal" data-target="#film"><img src="./img/film.png" class="img-fluid" width="200px" height="50px"></a>
+                <a class="open-button" data-toggle="modal" data-target="#text"><img src="./img/text blue.png" class="img-fluid" width="200px" height="50px"></a>
+                <a class="open-button" data-toggle="modal" data-target="#crew"><img src="./img/crew pink.png" class="img-fluid" width="200px" height="50px"></a>
+                <a class="open-button" data-toggle="modal" data-target="#collab"><img src="./img/collab lightblue.png" class="img-fluid" width="200px" height="50px"></a>
+                <a class="open-button" data-toggle="modal" data-target="#partners"><img src="./img/photo red.png" class="img-fluid" width="200px" height="50px"></a>
+                <a class="open-button" data-toggle="modal" data-target="#data"><img src="./img/data green.png" class="img-fluid" width="200px" height="50px"></a>
+                <a class="open-button" data-toggle="modal" data-target="#contact"><img src="./img/contact offwhite.png" class="img-fluid" width="200px" height="50px">   </a>
             </ul>
         </div>
-        <!-- #navicontainer -->
+    
 
-    </div>
-    <!-- #bgtext2 -->
+
 
 
     <!-- Modal -->
+     <!--
     <div class="modal fade" id="home" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -654,7 +584,7 @@ Lecture Performance by Knife Knightbusch</h1>
                         </table>
 
                     </div>
-                    <!-- .table-responsive -->
+                    
                 </div>
                 <button data-dismiss="modal" class="close-button ">&times;</button>
             </div>
@@ -961,7 +891,15 @@ Performer / Soundkünstler / Regisseur
             </div>
         </div>
     </div>
-    
+    -->
 </body>
+
+<footer>
+<div class="bottom-logos">
+    <img src="./img/Collaborator_logo/4_Logo_Stadtwappen_SE.png" class="img-fluid">
+    <img src="./img/Collaborator_logo/Logo_Kreis-SE_klein_4c.jpg" class="img-fluid">
+    <img src="./img/Collaborator_logo/Logo_Stadt_Bad_Segeberg.png" class="img-fluid">
+</div>
+</footer>
 
 </html>
