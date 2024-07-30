@@ -1009,7 +1009,7 @@
     */
 
     .img-fluid {
-        max-width: 200px;
+        max-width: 25%;
         height: auto;
         max-height: 70px;
         padding: 0 0 3%;
