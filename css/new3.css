@@ -1091,12 +1091,22 @@ body {
 
 .title-container {
     position: fixed;
-     top: 20px;
+    top: 20px;
     left: 80;
-    right: 20%;*/
+    right: 20%;
     text-align: center;
     z-index: 1000;
     width: 50%;
+    font-size: 24px; /* Default font size for larger screens */
+}
+
+@media screen and (max-width: 480px) {
+    .title-container {
+        font-size: 18px; /* Smaller font size for mobile screens */
+        width: 80%; /* Adjust width for better mobile layout */
+        left: 10%; /* Center the container on mobile */
+        right: 10%;
+    }
 }
 
 .title-image {
