@@ -1149,3 +1149,28 @@ body {
 h2 {
     font-size: 25px;
 }
+
+.photo-archive {
+    margin-bottom: 20px;
+  }
+  .modal-body {
+    position: relative;
+}
+
+.photo-archive {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.photo-credit {
+    font-size: 10px;
+    font-weight: normal;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.eng-heading {
+    font-size: 15px; /* Using the predefined font size for h5 */
+    color: purple; /* Using the predefined gray-light color */
+  }
