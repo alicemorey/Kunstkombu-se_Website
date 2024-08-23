@@ -1130,36 +1130,43 @@ body {
 
 /* modal styling */
 .modal {
-   color: rgb(139, 142, 143);
+    color: rgb(139, 142, 143);
 }
 
-.modal-body {
-    background-color:  rgb(184, 240, 243);
+.modal-dialog {
+    max-width: 95%;
+    width: 95%;
+    height: 95vh;
+    margin: 2.5vh auto;
+    padding: 0;
 }
 
-.modal-header {
+.modal-content {
+    height: 100%;
+    border-radius: 0;
     background-color: rgb(184, 240, 243);
 }
 
-.modal-footer {
-    background-color:  rgb(184, 240, 243);
+.modal-header, .modal-body, .modal-footer {
+    background-color: rgb(184, 240, 243);
 }
-   
+
+.modal-body {
+    position: relative;
+    padding: 20px;
+    height: calc(100% - 120px);
+    overflow-y: auto;
+}
 
 h2 {
     font-size: 25px;
 }
 
 .photo-archive {
-    margin-bottom: 20px;
-  }
-  .modal-body {
-    position: relative;
-}
-
-.photo-archive {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .photo-credit {
@@ -1171,6 +1178,14 @@ h2 {
 }
 
 .eng-heading {
-    font-size: 15px; /* Using the predefined font size for h5 */
-    color: purple; /* Using the predefined gray-light color */
-  }
+    font-size: 15px;
+    color: purple;
+}
+
+.full-screen-image {
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
+    display: block;
+}
