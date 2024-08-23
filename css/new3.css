@@ -1175,6 +1175,7 @@ h2 {
     text-align: right;
     margin-top: 0;
     margin-bottom: 15px;
+    color: darkcyan;
 }
 
 .eng-heading {
@@ -1188,4 +1189,19 @@ h2 {
     max-height: 85vh;
     object-fit: contain;
     display: block;
+}
+
+.times {
+    font-size: 20px;
+    color: deeppink;
+}
+
+.workshop{
+    font-size: 15px;
+    color: darkcyan;
+}
+
+.dates {
+    font-size: 20px;
+    color: deeppink;
 }
