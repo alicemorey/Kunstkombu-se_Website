@@ -1118,11 +1118,11 @@ body {
 .bottom-text {
     position: fixed;
     bottom: 10px;
-    left: 0;
+    left: 25%;
     right: 0;
-    text-align:center;
+    text-align:left;
     font-size: 12px;
-    color:  rgb(74, 174, 246);
+    color: darkcyan;
     font-weight: bold;
     z-index: 1000;
     font-style: italic;
