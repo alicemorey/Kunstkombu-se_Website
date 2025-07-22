@@ -172,7 +172,7 @@
         }
     }
     
-    @media screen and (max-width: 720px) {
+    @media screen and# (max-width: 720px) {
         .modal-dialog,
         .modal-dialog.modal-xs {
             width: 95%;
@@ -333,9 +333,15 @@ body {
 .modal-body {
     position: relative;
     padding: 20px;
-    height: calc(100% - 120px);
     overflow-y: auto;
 }
+
+.publication-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
 
 h2 {
     font-size: 25px;
